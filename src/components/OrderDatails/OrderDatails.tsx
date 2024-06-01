@@ -25,7 +25,7 @@ const OrderDatails: React.FC<OrderDatailsProps> = ({items,onRemoveItem}) => {
                     {items.map(item => (
                         <li key={item.name}>
                             {item.name} x {item.quantity} - {item.price * item.quantity} KGS
-                            <button onClick={() => onRemoveItem(item.name)}>Удалить</button>
+                            <button onClick={() => onRemoveItem(item.name)}>X</button>
                         </li>
                     ))}
                 </ul>

@@ -4,3 +4,47 @@
   padding: 2rem;
   text-align: center;
 }
+
+.app {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.order-details, .add-items {
+  width: 45%;
+}
+
+.order-details ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.order-details li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.total-price {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.add-items {
+text-align: center;
+}
+
+.container-btn {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 550px;
+} 
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
